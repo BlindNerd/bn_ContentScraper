@@ -1,0 +1,16 @@
+{
+  "name": "bn_contentscraper",
+  "version": "1.0.0",
+  "description": "Content Scraper",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Lemacks",
+  "license": "MIT",
+  "dependencies": {
+    "json2csv": "^3.10.0",
+    "scrape-it": "^3.3.2"
+  }
+}
