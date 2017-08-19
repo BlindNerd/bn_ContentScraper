@@ -38,21 +38,8 @@
     // Start to build the page array to scrape each induvidual page.
 
   url.pages.forEach(function(element) {
-			page.push(element.url);
+			links.push(url1 + element.url);
         })
-
-// build up each individual page array and put it into an array
-
-    let page1 = `${url1}${page[0]}`,
-        page2 = `${url1}${page[1]}`,
-        page3 = `${url1}${page[2]}`,
-        page4 = `${url1}${page[3]}`,
-        page5 = `${url1}${page[4]}`,
-        page6 = `${url1}${page[5]}`,
-        page7 = `${url1}${page[6]}`,
-        page8 = `${url1}${page[7]}`;
-
-links.push(page1, page2, page3, page4, page5, page6, page7, page8);
 
 // create the time Object
 
